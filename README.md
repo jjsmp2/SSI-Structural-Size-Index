@@ -22,6 +22,7 @@ This repository contains the extraction pipeline, dataset, and analysis notebook
 4. `notebooks/comparativeanalysisofsoftwaremetrics.ipynb` - merges SSI with the LOC/CC baselines and computes RQ1's correlation table.
 5. `notebooks/cross-language-validation.ipynb` - leave-one-language-out Random Forest reconstruction.
 6. `notebooks/humaneval-x-cross-language-validation.ipynb` - downloads HumanEval-X, computes the matched-task cross-language CV comparison.
+7. `Notebook/model-validationandexplainability.ipynb` - is the one with the RF self-prediction and permutation importance analysis
 
 ## Note:
 
