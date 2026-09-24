@@ -23,7 +23,7 @@ This repository contains the extraction pipeline, dataset, and analysis notebook
 5. `notebooks/cross-language-validation.ipynb` - leave-one-language-out Random Forest reconstruction.
 6. `notebooks/humaneval-x-cross-language-validation.ipynb` - downloads HumanEval-X, computes the matched-task cross-language CV comparison.
 
-## About `excluded-approaches/`
+## Note:
 
 Two notebooks in this folder train a Random Forest to predict SSI from the same AST features used to construct it via PCA. Since SSI is a deterministic function of those features, a high self-prediction score only shows the PCA projection is well-behaved, not that SSI carries information beyond its own construction. These notebooks are kept for transparency but are not the basis for any result reported in the paper.
 
