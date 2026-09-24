@@ -1,4 +1,4 @@
-# Structural Size Index (SSI): A Language-Agnostic Software Size Metric Derived from Abstract Syntax Trees
+# Structural Size Index (SSI)
 
 This repository contains the extraction pipeline, dataset, and analysis notebooks for the Structural Size Index (SSI), submitted for anonymous peer review. 
 
