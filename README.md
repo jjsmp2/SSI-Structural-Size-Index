@@ -2,7 +2,7 @@
 
 This repository contains the extraction pipeline, dataset, and analysis notebooks for the Structural Size Index (SSI), submitted for anonymous peer review. 
 
-## Repository structure
+## Structure
 
 ```
 .
@@ -15,7 +15,7 @@ This repository contains the extraction pipeline, dataset, and analysis notebook
 ```
 
 
-## Reproducing the pipeline in order
+## Reproducing the pipeline
 
 1. `Notebooks/mp-dataset-download-ast-features.ipynb` - downloads CodeSearchNet, samples 500 functions per language (seed 42), extracts 32 AST features per function via Tree-sitter.
 2. `Notebooks/loc-and-cyclomatic-complexity.ipynb` - computes LOC and Cyclomatic Complexity on the same sample.
@@ -38,7 +38,7 @@ Install with:
 pip install -r requirements.txt
 ```
 
-## Data
+## Datasets
 
 `data/` contains both raw extraction outputs and derived files. `dataset_with_ssi.csv` is the canonical 2,000-function CodeSearchNet reference corpus with SSI computed; all frozen normalization parameters used elsewhere in the paper are fit on this file. `humaneval_x_*.csv` files are derived from the public HumanEval-X benchmark (Java, Python, JavaScript, Go; 164 matched tasks) using those same parameters.
 
